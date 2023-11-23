@@ -1,0 +1,97 @@
+#capa{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+    background-image: url(https://th.bing.com/th/id/R.5a7b2cbf9fd5be9e577205d21b146577?rik=4LwHzCcxQDZtng&pid=ImgRaw&r=0);
+    background-repeat:repeat;
+    background-size: cover;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+h1{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+#projeto{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 20px;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    border-radius: 30px;
+    height: 40px;
+    width: 300px;
+    border: solid 2px rgba(209, 122, 122, 0.664);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.metas img{
+    width: 150px;
+    height: 150px;
+    float:left;
+    margin-right: 20px;
+  
+
+}
+#metas h1{
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+#metas p{
+    color: black;
+    margin-bottom: 50px;
+}
+
+.box-btn { text-align:center; }
+.btn {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border:solid 3px rgb(112, 65, 65);
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+.btn.elastico {
+  
+  transition: all 0.6s cubic-bezier(0.65, -0.25, 0.25, 1.95);
+  font-size:0.9em;
+  font-family: 'open_sansregular';
+  color: #000000;
+  padding: 0.8em 1.2em;
+  background: #ffffff;
+  text-transform: uppercase;
+}
+.btn.elastico:hover, .btn.elastico:focus, .btn.elastico:active {
+  
+  letter-spacing: 0.220rem;
+}
+
+#projeto img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
